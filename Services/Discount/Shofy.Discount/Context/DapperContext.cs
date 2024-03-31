@@ -20,7 +20,7 @@ namespace Shofy.Discount.Context
             optionsBuilder.UseSqlServer("Server=DESKTOP-FCCIUDC;initial Catalog=ShofyDiscountDB;integrated Security=true;TrustServerCertificate=True");
         }
         public DbSet<Coupon> Coupons { get; set; }
-        public IDbConnection CreateConnection => new SqlConnection(_connectionString);
+        public IDbConnection CreateConnection() => new SqlConnection(_connectionString);
 
     }
 }
