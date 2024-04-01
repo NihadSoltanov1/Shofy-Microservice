@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "jUDME6Djx/6okb08lKFQg41DRzznvwpm4HCLkYHQRb37NlvU5b82+AbLhqd7vl30vSHi/O15V6qiIH9at9xQSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nihad Soltanov\\source\\repos\\Shofy\\Services\\Order\\Presentation\\Shofy.Order.WebAPI\\Shofy.Order.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
