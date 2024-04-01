@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Shofy.Order.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Shofy.Order.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shofy.Order.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Shofy.Order.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Shofy.Order.Domain/Shofy.Order.Domain.csproj",
+      "msbuildProject": "../Shofy.Order.Domain/Shofy.Order.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Shofy.Order.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Nihad Soltanov\\source\\repos\\Shofy\\Services\\Order\\Core\\Shofy.Order.Domain\\Shofy.Order.Domain.csproj": {
+              "projectPath": "C:\\Users\\Nihad Soltanov\\source\\repos\\Shofy\\Services\\Order\\Core\\Shofy.Order.Domain\\Shofy.Order.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
