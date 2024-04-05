@@ -21,7 +21,7 @@ namespace Shofy.Order.Persistence.Repositories
 
         public async Task CreateAsync(T entity)
         {
-            _context.Set<T>().Add(entity);
+           await _context.Set<T>().AddAsync(entity);
             await _context.SaveChangesAsync();
         }
 

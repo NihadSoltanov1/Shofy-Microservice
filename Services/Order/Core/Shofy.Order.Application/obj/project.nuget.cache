@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "MmOHdup7fi8PNOKthmVGw6a7P1lM6+gA4kYs4OLAkOKJ4zaN1LHp4QEyCH6jEaDtr9QZ3ylzeyLtXP79bGeCxw==",
+  "dgSpecHash": "H5BCsNpYlNq8OMZKztpBl4Liizw2BrgDp9QIfqHTdqRdFH/SULZK5q3J2RP1k3kPz8AhKV3QpBYkRw+Ss0QPlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nihad Soltanov\\source\\repos\\Shofy\\Services\\Order\\Core\\Shofy.Order.Application\\Shofy.Order.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
