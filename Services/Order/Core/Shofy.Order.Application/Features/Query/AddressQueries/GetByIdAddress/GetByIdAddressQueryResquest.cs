@@ -5,5 +5,10 @@ namespace Shofy.Order.Application.Features.Query.AddressQueries.GetByIdAddress
     public class GetByIdAddressQueryResquest : IRequest<GetByIdAddressQueryResponse>
     {
         public int Id { get; set; }
+
+        public GetByIdAddressQueryResquest(int id)
+        {
+            Id = id;
+        }
     }
 }
