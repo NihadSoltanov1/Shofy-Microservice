@@ -12,6 +12,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Shofy.IdentityServer.Services.Interfaces;
+using Shofy.IdentityServer.Services.Abstract;
 
 namespace Shofy.IdentityServer
 {
@@ -28,6 +30,7 @@ namespace Shofy.IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IUserRegisterService, UserRegisterService>();
             services.AddControllersWithViews();
 
             services.AddDbContext<ApplicationDbContext>(options =>
