@@ -1,0 +1,15 @@
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\bin\Debug\net7.0\Shofy.Order.Application.deps.json
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\bin\Debug\net7.0\Shofy.Order.Application.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\bin\Debug\net7.0\Shofy.Order.Application.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\bin\Debug\net7.0\Shofy.Order.Domain.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\bin\Debug\net7.0\Shofy.Order.Domain.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\obj\Debug\net7.0\Shofy.Order.Application.csproj.AssemblyReference.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\obj\Debug\net7.0\Shofy.Order.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\obj\Debug\net7.0\Shofy.Order.Application.AssemblyInfoInputs.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\obj\Debug\net7.0\Shofy.Order.Application.AssemblyInfo.cs
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\obj\Debug\net7.0\Shofy.Order.Application.csproj.CoreCompileInputs.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\obj\Debug\net7.0\Shofy.Order.Application.csproj.CopyComplete
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\obj\Debug\net7.0\Shofy.Order.Application.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\obj\Debug\net7.0\refint\Shofy.Order.Application.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\obj\Debug\net7.0\Shofy.Order.Application.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Application\obj\Debug\net7.0\ref\Shofy.Order.Application.dll

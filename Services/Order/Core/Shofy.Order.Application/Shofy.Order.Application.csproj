@@ -11,17 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Command\AddressCommands\CreateAddress\" />
-    <Folder Include="Features\Command\AddressCommands\DeleteAddress\" />
-    <Folder Include="Features\Command\AddressCommands\UpdateAddress\" />
-    <Folder Include="Features\Command\OrderDetailCommands\CreateOrderDetail\" />
-    <Folder Include="Features\Command\OrderDetailCommands\DeleteOrderDetail\" />
-    <Folder Include="Features\Command\OrderDetailCommands\UpdateOrderDetail\" />
-    <Folder Include="Features\Command\OrderingCommands\UpdateOrdering\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
   </ItemGroup>
 
 </Project>

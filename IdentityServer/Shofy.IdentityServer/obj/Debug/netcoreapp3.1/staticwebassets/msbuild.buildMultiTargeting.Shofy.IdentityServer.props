@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Shofy.IdentityServer.props" />
+</Project>

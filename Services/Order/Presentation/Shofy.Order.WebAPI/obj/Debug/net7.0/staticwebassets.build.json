@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Nf8D2v3AWF7EllQoFdeay3fFLQD1J3yVUI06nd11DRo=",
+  "Source": "Shofy.Order.WebAPI",
+  "BasePath": "_content/Shofy.Order.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

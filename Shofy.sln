@@ -21,13 +21,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{70160B68-7262-46D0-B72E-D3755C236AEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shofy.Order.Domain", "Services\Order\Core\Shofy.Order.Domain\Shofy.Order.Domain.csproj", "{449F2FC7-6BAE-483D-A2FB-EFDCBA06DA98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.Order.Domain", "Services\Order\Core\Shofy.Order.Domain\Shofy.Order.Domain.csproj", "{449F2FC7-6BAE-483D-A2FB-EFDCBA06DA98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shofy.Order.Application", "Services\Order\Core\Shofy.Order.Application\Shofy.Order.Application.csproj", "{6E4457AD-FB46-4724-9BCD-749AA0D7B918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.Order.Application", "Services\Order\Core\Shofy.Order.Application\Shofy.Order.Application.csproj", "{6E4457AD-FB46-4724-9BCD-749AA0D7B918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shofy.Order.Persistence", "Services\Order\Infrastructure\Shofy.Order.Persistence\Shofy.Order.Persistence.csproj", "{7FEEC3E4-5158-4285-970C-6EA72B3869A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.Order.Persistence", "Services\Order\Infrastructure\Shofy.Order.Persistence\Shofy.Order.Persistence.csproj", "{7FEEC3E4-5158-4285-970C-6EA72B3869A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shofy.Order.WebAPI", "Services\Order\Presentation\Shofy.Order.WebAPI\Shofy.Order.WebAPI.csproj", "{5ABBDDC5-73AC-43DE-8DB3-A3FFBAB7619D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.Order.WebAPI", "Services\Order\Presentation\Shofy.Order.WebAPI\Shofy.Order.WebAPI.csproj", "{5ABBDDC5-73AC-43DE-8DB3-A3FFBAB7619D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{664B694E-A09A-4A1C-BF65-3376CE0504F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.IdentityServer", "IdentityServer\Shofy.IdentityServer\Shofy.IdentityServer.csproj", "{A5974689-F3F8-4566-9A14-8D7E452DB4F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{5ABBDDC5-73AC-43DE-8DB3-A3FFBAB7619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ABBDDC5-73AC-43DE-8DB3-A3FFBAB7619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ABBDDC5-73AC-43DE-8DB3-A3FFBAB7619D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5974689-F3F8-4566-9A14-8D7E452DB4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5974689-F3F8-4566-9A14-8D7E452DB4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5974689-F3F8-4566-9A14-8D7E452DB4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5974689-F3F8-4566-9A14-8D7E452DB4F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,7 @@ Global
 		{6E4457AD-FB46-4724-9BCD-749AA0D7B918} = {A16EB826-32AB-44DB-BB56-464B2EB02822}
 		{7FEEC3E4-5158-4285-970C-6EA72B3869A7} = {5F496B9C-647F-4F5D-880A-F2FADC1B0F8E}
 		{5ABBDDC5-73AC-43DE-8DB3-A3FFBAB7619D} = {70160B68-7262-46D0-B72E-D3755C236AEC}
+		{A5974689-F3F8-4566-9A14-8D7E452DB4F3} = {664B694E-A09A-4A1C-BF65-3376CE0504F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D231044B-C77C-4BE6-8204-9315ABCEA100}

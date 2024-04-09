@@ -1,0 +1,11 @@
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\bin\Debug\net7.0\Shofy.Order.Domain.deps.json
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\bin\Debug\net7.0\Shofy.Order.Domain.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\bin\Debug\net7.0\Shofy.Order.Domain.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\obj\Debug\net7.0\Shofy.Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\obj\Debug\net7.0\Shofy.Order.Domain.AssemblyInfoInputs.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\obj\Debug\net7.0\Shofy.Order.Domain.AssemblyInfo.cs
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\obj\Debug\net7.0\Shofy.Order.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\obj\Debug\net7.0\Shofy.Order.Domain.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\obj\Debug\net7.0\refint\Shofy.Order.Domain.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\obj\Debug\net7.0\Shofy.Order.Domain.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Core\Shofy.Order.Domain\obj\Debug\net7.0\ref\Shofy.Order.Domain.dll

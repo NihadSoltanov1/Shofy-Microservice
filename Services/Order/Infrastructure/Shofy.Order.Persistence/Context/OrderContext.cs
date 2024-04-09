@@ -12,8 +12,9 @@ namespace Shofy.Order.Persistence.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-FCCIUDC;initial Catalog=ShofyDiscountDB;integrated Security=true;TrustServerCertificate=True");
-         }
+            optionsBuilder.UseSqlServer("Server=localhost,1440; Initial Catalog=ShofyOrderDb; User Id=sa; Password=123456aA*; TrustServerCertificate=True;");
+
+        }
         public DbSet<Address> Address { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Ordering> Orderings { get; set; }

@@ -1,4 +1,8 @@
 using Shofy.Order.Application;
+using Shofy.Order.Application.Interfaces;
+using Shofy.Order.Persistence.Context;
+using Shofy.Order.Persistence.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
@@ -10,6 +14,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<OrderContext>();
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
 builder.Services.AddApplicationServices(configuration);
 var app = builder.Build();
 
