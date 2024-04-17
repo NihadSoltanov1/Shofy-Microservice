@@ -32,7 +32,7 @@ namespace Shofy.IdentityServer
         {
             services.AddScoped<IUserRegisterService, UserRegisterService>();
             services.AddControllersWithViews();
-
+            services.AddLocalApiAuthentication();
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
@@ -52,6 +52,7 @@ namespace Shofy.IdentityServer
             })
                 .AddInMemoryIdentityResources(Config.IdentityResources)
                 .AddInMemoryApiScopes(Config.ApiScopes)
+                .AddInMemoryApiResources(Config.ApiResources)
                 .AddInMemoryClients(Config.Clients)
                 .AddAspNetIdentity<ApplicationUser>();
 
@@ -83,6 +84,7 @@ namespace Shofy.IdentityServer
 
             app.UseRouting();
             app.UseIdentityServer();
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {

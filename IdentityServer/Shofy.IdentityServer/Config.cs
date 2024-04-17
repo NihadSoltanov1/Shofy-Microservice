@@ -1,8 +1,4 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
-
-
-using IdentityServer4;
+﻿using IdentityServer4;
 using IdentityServer4.Models;
 using System.Collections.Generic;
 
@@ -17,6 +13,7 @@ namespace Shofy.IdentityServer
           new ApiResource ("ResourceDiscount"){Scopes={"DiscountFullPermission","DiscountReadPermission", "DiscountWritePermission","DiscountUpdatePermission","DiscountRemovePermission"}},
 
           new ApiResource ("ResourceOrder"){Scopes={"OrderFullPermission","OrderReadPermission", "OrderWritePermission","OrderUpdatePermission","OrderRemovePermission"}},
+          new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
 
         };
 
@@ -46,6 +43,8 @@ namespace Shofy.IdentityServer
             new ApiScope("OrderWritePermission","Writing authority for discount operations"),
             new ApiScope("OrderUpdatePermission","Updating authority for discount operations"),
             new ApiScope("OrderRemovePermission","Removing authority for discount operations"),
+            new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
+
         };
 
         public static IEnumerable<Client> Clients => new Client[]
@@ -63,7 +62,7 @@ namespace Shofy.IdentityServer
             {
                  ClientId="ShofyManagerId",
                 ClientName="Shofy User",
-                AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
+                AllowedGrantTypes=GrantTypes.ClientCredentials,
                 ClientSecrets={new Secret("shofysecret".Sha256()) },
                 AllowedScopes={ "CatalogFullPermission", "BasketFullPermission","DiscountFullPermission",
                 IdentityServerConstants.LocalApi.ScopeName,
@@ -76,7 +75,7 @@ namespace Shofy.IdentityServer
             {
                 ClientId="ShofyAdminId",
                 ClientName="Shofy Admin",
-                AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
+                AllowedGrantTypes=GrantTypes.ClientCredentials,
                 ClientSecrets={new Secret("shofysecret".Sha256()) },
                 AllowedScopes={ "CatalogFullPermission", "BasketFullPermission","DiscountFullPermission",
                 IdentityServerConstants.LocalApi.ScopeName,
