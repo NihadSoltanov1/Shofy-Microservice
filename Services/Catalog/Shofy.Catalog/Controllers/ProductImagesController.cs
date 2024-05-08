@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Shofy.Catalog.Dtos.ProductImageDtos;
 using Shofy.Catalog.Services.ProductImageServices;
 
 namespace Shofy.Catalog.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductImagesController : ControllerBase
