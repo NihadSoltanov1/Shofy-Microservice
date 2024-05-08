@@ -6,9 +6,11 @@ using Shofy.Order.Application.Features.Command.AddressCommands.UpdateAddress;
 using Shofy.Order.Application.Features.Command.AddressCommands.DeleteAddress;
 using Shofy.Order.Application.Features.Query.AddressQueries.GetAllAddress;
 using Shofy.Order.Application.Features.Query.AddressQueries.GetByIdAddress;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Shofy.Order.WebAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class AddressController : ControllerBase

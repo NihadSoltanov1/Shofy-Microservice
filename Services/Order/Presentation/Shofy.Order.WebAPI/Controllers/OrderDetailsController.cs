@@ -6,9 +6,11 @@ using Shofy.Order.Application.Features.Command.OrderDetailCommands.UpdateOrderDe
 using Shofy.Order.Application.Features.Command.OrderDetailCommands.DeleteOrderDetail;
 using Shofy.Order.Application.Features.Query.OrderDetailQueries.GetAllOrderDetail;
 using Shofy.Order.Application.Features.Query.OrderDetailQueries.GetByIdOrderDetail;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Shofy.Order.WebAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrderDetailsController : ControllerBase
