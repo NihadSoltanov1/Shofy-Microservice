@@ -1,0 +1,11 @@
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\bin\Debug\net7.0\Shofy.Cargo.EntityLayer.deps.json
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\bin\Debug\net7.0\Shofy.Cargo.EntityLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\bin\Debug\net7.0\Shofy.Cargo.EntityLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\obj\Debug\net7.0\Shofy.Cargo.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\obj\Debug\net7.0\Shofy.Cargo.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\obj\Debug\net7.0\Shofy.Cargo.EntityLayer.AssemblyInfo.cs
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\obj\Debug\net7.0\Shofy.Cargo.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\obj\Debug\net7.0\Shofy.Cargo.EntityLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\obj\Debug\net7.0\refint\Shofy.Cargo.EntityLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\obj\Debug\net7.0\Shofy.Cargo.EntityLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.EntityLayer\obj\Debug\net7.0\ref\Shofy.Cargo.EntityLayer.dll

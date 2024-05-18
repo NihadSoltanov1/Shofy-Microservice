@@ -75,3 +75,4 @@ C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Discount\Shofy.Discount\obj\
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Discount\Shofy.Discount\obj\Debug\net7.0\Shofy.Discount.pdb
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Discount\Shofy.Discount\obj\Debug\net7.0\Shofy.Discount.genruntimeconfig.cache
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Discount\Shofy.Discount\obj\Debug\net7.0\ref\Shofy.Discount.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Discount\Shofy.Discount\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

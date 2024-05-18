@@ -1,0 +1,11 @@
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\bin\Debug\net7.0\Shofy.Cargo.BusinessLayer.deps.json
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\bin\Debug\net7.0\Shofy.Cargo.BusinessLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\bin\Debug\net7.0\Shofy.Cargo.BusinessLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\Shofy.Cargo.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\Shofy.Cargo.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\Shofy.Cargo.BusinessLayer.AssemblyInfo.cs
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\Shofy.Cargo.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\Shofy.Cargo.BusinessLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\refint\Shofy.Cargo.BusinessLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\Shofy.Cargo.BusinessLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\ref\Shofy.Cargo.BusinessLayer.dll

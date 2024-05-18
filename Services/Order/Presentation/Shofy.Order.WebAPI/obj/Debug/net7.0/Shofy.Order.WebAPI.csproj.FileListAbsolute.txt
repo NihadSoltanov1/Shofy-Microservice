@@ -83,3 +83,4 @@ C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Presentation\Shofy.Ord
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Presentation\Shofy.Order.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Presentation\Shofy.Order.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Presentation\Shofy.Order.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Order\Presentation\Shofy.Order.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,0 +1,15 @@
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\bin\Debug\net7.0\Shofy.Cargo.DataAccessLayer.deps.json
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\bin\Debug\net7.0\Shofy.Cargo.DataAccessLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\bin\Debug\net7.0\Shofy.Cargo.DataAccessLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\bin\Debug\net7.0\Shofy.Cargo.EntityLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\bin\Debug\net7.0\Shofy.Cargo.EntityLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\obj\Debug\net7.0\Shofy.Cargo.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\obj\Debug\net7.0\Shofy.Cargo.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\obj\Debug\net7.0\Shofy.Cargo.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\obj\Debug\net7.0\Shofy.Cargo.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\obj\Debug\net7.0\Shofy.Cargo.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\obj\Debug\net7.0\Shofy.Cargo.DataAccessLayer.csproj.CopyComplete
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\obj\Debug\net7.0\Shofy.Cargo.DataAccessLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\obj\Debug\net7.0\refint\Shofy.Cargo.DataAccessLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\obj\Debug\net7.0\Shofy.Cargo.DataAccessLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.DataAccessLayer\obj\Debug\net7.0\ref\Shofy.Cargo.DataAccessLayer.dll

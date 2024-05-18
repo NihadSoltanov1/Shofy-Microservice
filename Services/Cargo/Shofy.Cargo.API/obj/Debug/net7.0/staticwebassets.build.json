@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VZXCOI8vH2zFWaKZq0CX+cNdYBrK61FKM0sDleKWr5Y=",
+  "Source": "Shofy.Cargo.API",
+  "BasePath": "_content/Shofy.Cargo.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

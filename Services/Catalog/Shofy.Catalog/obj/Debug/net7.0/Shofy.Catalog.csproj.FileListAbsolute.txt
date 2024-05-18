@@ -46,3 +46,11 @@ C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\obj\De
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\obj\Debug\net7.0\Shofy.Catalog.pdb
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\obj\Debug\net7.0\Shofy.Catalog.genruntimeconfig.cache
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\obj\Debug\net7.0\ref\Shofy.Catalog.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Catalog\Shofy.Catalog\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
