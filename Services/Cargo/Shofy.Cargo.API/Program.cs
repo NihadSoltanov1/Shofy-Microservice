@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Shofy.Cargo.BusinessLayer.Abstract;
 using Shofy.Cargo.BusinessLayer.Concrete;
@@ -13,7 +14,12 @@ IConfigurationRoot configuration = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
                 .Build();
 // Add services to the container.
-
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+{
+    opt.Authority = builder.Configuration["IdentityServerUrl"];
+    opt.Audience = "ResourceCargo ";
+    opt.RequireHttpsMetadata = false;
+});
 builder.Services.AddControllers();
 builder.Services.AddScoped<ICargoOperationService, CargoOperationManager>();
 builder.Services.AddScoped<ICargoOperationRepository, EfCargoOperation>();
@@ -41,7 +47,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

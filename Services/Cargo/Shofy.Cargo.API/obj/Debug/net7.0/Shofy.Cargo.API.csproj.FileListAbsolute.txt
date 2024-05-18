@@ -83,3 +83,4 @@ C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\bin\De
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\bin\Debug\net7.0\Shofy.Cargo.DtoLayer.dll
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\bin\Debug\net7.0\Shofy.Cargo.BusinessLayer.pdb
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\bin\Debug\net7.0\Shofy.Cargo.DtoLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sgOZacFvkE/nrmQSKqQY4vrpP9+EXVTAkaQTw4SaYtN3UsvBXPFjXGuS2UUmDzX/OXxi4RoOUEcNbNvM+jRZfA==",
+  "dgSpecHash": "UMhL6cOFd+hFuhdy9pi3Irhwj0cI7wJ3EvIeNLV0YzvK7vtauJILkVvnOJ9sLVZ2zsoefD6MZNGZVMMwtcggkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nihad Soltanov\\source\\repos\\Shofy\\Services\\Cargo\\Shofy.Cargo.API\\Shofy.Cargo.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.16\\microsoft.aspnetcore.authentication.jwtbearer.7.0.16.nupkg.sha512",
     "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
