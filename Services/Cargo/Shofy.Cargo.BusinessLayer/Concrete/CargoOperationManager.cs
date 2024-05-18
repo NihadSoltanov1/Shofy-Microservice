@@ -1,5 +1,7 @@
-﻿using Shofy.Cargo.BusinessLayer.Abstract;
+﻿using AutoMapper;
+using Shofy.Cargo.BusinessLayer.Abstract;
 using Shofy.Cargo.DataAccessLayer.Abstract;
+using Shofy.Cargo.DtoLayer.Dtos.CargoOperationDtos;
 using Shofy.Cargo.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -30,7 +32,7 @@ namespace Shofy.Cargo.BusinessLayer.Concrete
 
         public List<CargoOperation> TGetAll()
         {
-           return _repository.GetAll();
+            return _repository.GetAll();
         }
 
         public CargoOperation TGetById(int id)
@@ -40,7 +42,7 @@ namespace Shofy.Cargo.BusinessLayer.Concrete
 
         public void TUpdate(CargoOperation entity)
         {
-            _repository.Update(entity);    
+            _repository.Update(entity);
         }
     }
 }
