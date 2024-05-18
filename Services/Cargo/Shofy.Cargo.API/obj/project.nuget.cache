@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/h/WWO4iB2DghXaa6iJcxWRSW3lMaqpQDfPaD9yqx5E/LiQGhlXrivRV0HgNhbh3ZMSx9K/Yb0lLU35qa6d7WQ==",
+  "dgSpecHash": "sgOZacFvkE/nrmQSKqQY4vrpP9+EXVTAkaQTw4SaYtN3UsvBXPFjXGuS2UUmDzX/OXxi4RoOUEcNbNvM+jRZfA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nihad Soltanov\\source\\repos\\Shofy\\Services\\Cargo\\Shofy.Cargo.API\\Shofy.Cargo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Nihad Soltanov\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

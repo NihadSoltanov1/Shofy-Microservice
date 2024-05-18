@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Extentions\" />
+    <Folder Include="FluentValidation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shofy.Cargo.DataAccessLayer\Shofy.Cargo.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Shofy.Cargo.DtoLayer\Shofy.Cargo.DtoLayer.csproj" />
+  </ItemGroup>
+
 </Project>

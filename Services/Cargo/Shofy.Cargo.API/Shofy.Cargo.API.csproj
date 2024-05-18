@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Shofy.Cargo.BusinessLayer\Shofy.Cargo.BusinessLayer.csproj" />
     <ProjectReference Include="..\Shofy.Cargo.DataAccessLayer\Shofy.Cargo.DataAccessLayer.csproj" />
   </ItemGroup>
 

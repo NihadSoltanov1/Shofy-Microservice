@@ -78,3 +78,8 @@ C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\obj\De
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\obj\Debug\net7.0\Shofy.Cargo.API.pdb
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\obj\Debug\net7.0\Shofy.Cargo.API.genruntimeconfig.cache
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\obj\Debug\net7.0\ref\Shofy.Cargo.API.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\bin\Debug\net7.0\Shofy.Cargo.BusinessLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\bin\Debug\net7.0\Shofy.Cargo.DtoLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\bin\Debug\net7.0\Shofy.Cargo.BusinessLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.API\bin\Debug\net7.0\Shofy.Cargo.DtoLayer.pdb

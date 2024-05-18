@@ -9,3 +9,11 @@ C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLa
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\refint\Shofy.Cargo.BusinessLayer.dll
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\Shofy.Cargo.BusinessLayer.pdb
 C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\ref\Shofy.Cargo.BusinessLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\bin\Debug\net7.0\Shofy.Cargo.DataAccessLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\bin\Debug\net7.0\Shofy.Cargo.DtoLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\bin\Debug\net7.0\Shofy.Cargo.EntityLayer.dll
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\bin\Debug\net7.0\Shofy.Cargo.DataAccessLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\bin\Debug\net7.0\Shofy.Cargo.DtoLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\bin\Debug\net7.0\Shofy.Cargo.EntityLayer.pdb
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\Shofy.Cargo.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Nihad Soltanov\source\repos\Shofy\Services\Cargo\Shofy.Cargo.BusinessLayer\obj\Debug\net7.0\Shofy.Cargo.BusinessLayer.csproj.CopyComplete

@@ -12,6 +12,7 @@ namespace Shofy.Cargo.EntityLayer.Entities
         public string SenderCustomer { get; set; }
         public string ReceiverCustomer { get; set; }
         public int Barcode { get; set; }
+        public int CompanyId { get; set; }
         public Company Company { get; set; }
     }
 }
