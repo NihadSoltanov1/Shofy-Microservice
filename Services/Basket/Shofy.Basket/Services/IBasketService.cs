@@ -5,7 +5,7 @@ namespace Shofy.Basket.Services
     public interface IBasketService
     {
         Task<BasketTotalDto> GetBasket(string userId);
-        Task SaveBasket(BasketTotalDto basket);
+        Task SaveBasket(BasketTotalDto totalBasket);
         Task DeleteBasket(string userId);
     }
 }

@@ -35,15 +35,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.IdentityServer", "Ide
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cargo", "Cargo", "{31289C3A-28AD-43BD-AD2C-B1F0B6C08AF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shofy.Cargo.EntityLayer", "Services\Cargo\Shofy.Cargo.EntityLayer\Shofy.Cargo.EntityLayer.csproj", "{89BCE566-5C20-4DE3-9CFF-74B62BB3F8D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.Cargo.EntityLayer", "Services\Cargo\Shofy.Cargo.EntityLayer\Shofy.Cargo.EntityLayer.csproj", "{89BCE566-5C20-4DE3-9CFF-74B62BB3F8D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shofy.Cargo.BusinessLayer", "Services\Cargo\Shofy.Cargo.BusinessLayer\Shofy.Cargo.BusinessLayer.csproj", "{9442FCF2-703C-4F33-998B-0C042C811D27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.Cargo.BusinessLayer", "Services\Cargo\Shofy.Cargo.BusinessLayer\Shofy.Cargo.BusinessLayer.csproj", "{9442FCF2-703C-4F33-998B-0C042C811D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shofy.Cargo.DtoLayer", "Services\Cargo\Shofy.Cargo.DtoLayer\Shofy.Cargo.DtoLayer.csproj", "{89BF7B95-BC93-4791-9CAF-EDBFAEDE4F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.Cargo.DtoLayer", "Services\Cargo\Shofy.Cargo.DtoLayer\Shofy.Cargo.DtoLayer.csproj", "{89BF7B95-BC93-4791-9CAF-EDBFAEDE4F26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shofy.Cargo.DataAccessLayer", "Services\Cargo\Shofy.Cargo.DataAccessLayer\Shofy.Cargo.DataAccessLayer.csproj", "{DAC07DDD-E003-4FC8-A6E5-F3A87DAE3E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.Cargo.DataAccessLayer", "Services\Cargo\Shofy.Cargo.DataAccessLayer\Shofy.Cargo.DataAccessLayer.csproj", "{DAC07DDD-E003-4FC8-A6E5-F3A87DAE3E58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shofy.Cargo.API", "Services\Cargo\Shofy.Cargo.API\Shofy.Cargo.API.csproj", "{E6C23EC0-924A-4119-895C-959F068429EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shofy.Cargo.API", "Services\Cargo\Shofy.Cargo.API\Shofy.Cargo.API.csproj", "{E6C23EC0-924A-4119-895C-959F068429EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{16C55DB8-125F-4821-83FD-3742C017F4CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shofy.Basket", "Services\Basket\Shofy.Basket\Shofy.Basket.csproj", "{02F3433E-2CBF-4E60-B74E-7B3D3E280D1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,10 @@ Global
 		{E6C23EC0-924A-4119-895C-959F068429EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6C23EC0-924A-4119-895C-959F068429EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6C23EC0-924A-4119-895C-959F068429EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F3433E-2CBF-4E60-B74E-7B3D3E280D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F3433E-2CBF-4E60-B74E-7B3D3E280D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F3433E-2CBF-4E60-B74E-7B3D3E280D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F3433E-2CBF-4E60-B74E-7B3D3E280D1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +131,8 @@ Global
 		{89BF7B95-BC93-4791-9CAF-EDBFAEDE4F26} = {31289C3A-28AD-43BD-AD2C-B1F0B6C08AF7}
 		{DAC07DDD-E003-4FC8-A6E5-F3A87DAE3E58} = {31289C3A-28AD-43BD-AD2C-B1F0B6C08AF7}
 		{E6C23EC0-924A-4119-895C-959F068429EC} = {31289C3A-28AD-43BD-AD2C-B1F0B6C08AF7}
+		{16C55DB8-125F-4821-83FD-3742C017F4CA} = {C00A5DBD-7337-4184-83A5-3A7B45305108}
+		{02F3433E-2CBF-4E60-B74E-7B3D3E280D1B} = {16C55DB8-125F-4821-83FD-3742C017F4CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D231044B-C77C-4BE6-8204-9315ABCEA100}

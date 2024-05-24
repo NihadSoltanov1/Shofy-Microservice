@@ -13,6 +13,7 @@ namespace Shofy.IdentityServer
           new ApiResource ("ResourceDiscount"){Scopes={"DiscountFullPermission","DiscountReadPermission", "DiscountWritePermission","DiscountUpdatePermission","DiscountRemovePermission"}},
 
           new ApiResource ("ResourceOrder"){Scopes={"OrderFullPermission","OrderReadPermission", "OrderWritePermission","OrderUpdatePermission","OrderRemovePermission"}},
+          new ApiResource ("ResourceBasket"){Scopes={"BasketFullPermission"}},
            new ApiResource ("ResourceCargo"){Scopes={"CargoFullPermission","CargoReadPermission"}},
           new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
 
@@ -44,6 +45,8 @@ namespace Shofy.IdentityServer
             new ApiScope("OrderWritePermission","Writing authority for discount operations"),
             new ApiScope("OrderUpdatePermission","Updating authority for discount operations"),
             new ApiScope("OrderRemovePermission","Removing authority for discount operations"),
+
+                        new ApiScope("BasketFullPermission","Full authority for basket operations"),
 
                         new ApiScope("CargoFullPermission","Full authority for cargo operations"),
             new ApiScope("CargoReadPermission","Reading authority for cargo operations"),
@@ -81,7 +84,7 @@ namespace Shofy.IdentityServer
                 ClientName="Shofy Admin",
                 AllowedGrantTypes=GrantTypes.ClientCredentials,
                 ClientSecrets={new Secret("shofysecret".Sha256()) },
-                AllowedScopes={ "CatalogFullPermission", "BasketFullPermission","DiscountFullPermission","CargoFullPermission",
+                AllowedScopes={ "CatalogFullPermission", "BasketFullPermission","DiscountFullPermission","CargoFullPermission","BasketFullPermission",
                 IdentityServerConstants.LocalApi.ScopeName,
                 IdentityServerConstants.StandardScopes.Email,
                 IdentityServerConstants.StandardScopes.OpenId,
