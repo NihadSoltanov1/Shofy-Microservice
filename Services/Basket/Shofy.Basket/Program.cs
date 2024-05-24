@@ -1,11 +1,15 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Options;
 using Shofy.Basket.LoginServices;
 using Shofy.Basket.Services;
 using Shofy.Basket.Settings;
+using System.IdentityModel.Tokens.Jwt;
 
 var builder = WebApplication.CreateBuilder(args);
-
+var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub"); // remove mapping for sub
 // Add services to the container.
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
@@ -25,7 +29,11 @@ builder.Services.AddSingleton<RedisService>(sp =>
     redis.Connect();
     return redis;
 });
-builder.Services.AddControllers();
+
+builder.Services.AddControllers(opt =>
+{
+    opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -40,7 +48,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

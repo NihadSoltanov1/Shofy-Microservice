@@ -69,7 +69,7 @@ namespace Shofy.IdentityServer
             {
                  ClientId="ShofyManagerId",
                 ClientName="Shofy User",
-                AllowedGrantTypes=GrantTypes.ClientCredentials,
+                AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
                 ClientSecrets={new Secret("shofysecret".Sha256()) },
                 AllowedScopes={ "CatalogFullPermission", "BasketFullPermission","DiscountFullPermission",
                 IdentityServerConstants.LocalApi.ScopeName,
@@ -82,7 +82,7 @@ namespace Shofy.IdentityServer
             {
                 ClientId="ShofyAdminId",
                 ClientName="Shofy Admin",
-                AllowedGrantTypes=GrantTypes.ClientCredentials,
+                AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
                 ClientSecrets={new Secret("shofysecret".Sha256()) },
                 AllowedScopes={ "CatalogFullPermission", "BasketFullPermission","DiscountFullPermission","CargoFullPermission","BasketFullPermission",
                 IdentityServerConstants.LocalApi.ScopeName,
